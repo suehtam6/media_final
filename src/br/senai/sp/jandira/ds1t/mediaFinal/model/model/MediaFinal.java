@@ -1,5 +1,6 @@
 package br.senai.sp.jandira.ds1t.mediaFinal.model.model;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 
 public class MediaFinal {
@@ -58,9 +59,11 @@ public class MediaFinal {
 
 
         if (media >= 5.0) {
-            situacao = "Aprovado(a)";
+            situacao = "A P R O V A D O (A)";
+        } else if (media < 3.0) {
+            situacao = "R E P R O V A D O(A)";
         } else {
-            situacao = "Reprovado(a)";
+            situacao = "R E C U P E R A Ç Ã O";
         }
 
         exibirResultados();
