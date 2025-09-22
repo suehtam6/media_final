@@ -1,13 +1,13 @@
 package br.senai.sp.jandira.ds1t.mediaFinal.model;
 
-import br.senai.sp.jandira.ds1t.mediaFinal.model.model.mediaFinal;
+import br.senai.sp.jandira.ds1t.mediaFinal.model.model.MediaFinal;
 
-public class mediaFinalApp {
+public class MediaFinalApp {
 
     public static void main(String[] args) {
         System.out.println("Aplicativo está sendo iniciado!!");
 
-        mediaFinal mediaFinal = new mediaFinal();
+        MediaFinal mediaFinal = new MediaFinal();
         mediaFinal.getData();
 
     }
